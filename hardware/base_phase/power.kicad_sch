@@ -1324,6 +1324,17 @@
 		)
 		(uuid "58bbf467-bce4-4fb5-b7b4-3c181eaf700a")
 	)
+	(text "*still need to select components"
+		(exclude_from_sim no)
+		(at 82.042 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89a190e3-f45e-4ad3-b01c-866e38225324")
+	)
 	(text "Dual Rail Converter"
 		(exclude_from_sim no)
 		(at 25.4 74.93 0)
