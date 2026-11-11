@@ -1,0 +1,4 @@
+# Kicad files
+.history/
+*.kicad_prl
+*.lck
