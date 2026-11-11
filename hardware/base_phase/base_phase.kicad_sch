@@ -5,6 +5,17 @@
 	(uuid "4506346c-e1d4-4e4d-bf95-9738a1a64fd9")
 	(paper "A4")
 	(lib_symbols)
+	(text "Notes:\nguitar pedal design https://www.sound-au.com/articles/guitar-voltage.htm"
+		(exclude_from_sim no)
+		(at 65.786 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16389fd1-ae55-4de0-b952-6e13b904b777")
+	)
 	(sheet
 		(at 76.2 38.1)
 		(size 12.7 12.7)
