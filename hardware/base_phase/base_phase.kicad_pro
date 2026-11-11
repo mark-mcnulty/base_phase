@@ -441,6 +441,18 @@
     [
       "507d498f-8883-4f6a-93de-0feff2447d04",
       "power"
+    ],
+    [
+      "3b57cd10-546a-4ecc-9e73-818091add00f",
+      "mcu"
+    ],
+    [
+      "af2a5a94-931c-412c-b89c-d4798185857e",
+      "analog"
+    ],
+    [
+      "75531b7f-01a5-4dde-a1b2-e246b8fcf762",
+      "connectors"
     ]
   ],
   "text_variables": {},

@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 76.2 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3b57cd10-546a-4ecc-9e73-818091add00f")
+		(property "Sheetname" "mcu"
+			(at 76.2 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 76.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base_phase"
+				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 38.1)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -47,6 +93,98 @@
 			(project "base_phase"
 				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "75531b7f-01a5-4dde-a1b2-e246b8fcf762")
+		(property "Sheetname" "connectors"
+			(at 152.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 152.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base_phase"
+				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "af2a5a94-931c-412c-b89c-d4798185857e")
+		(property "Sheetname" "analog"
+			(at 114.3 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 114.3 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base_phase"
+				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
+					(page "4")
 				)
 			)
 		)
