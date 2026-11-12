@@ -42,3 +42,7 @@ In this next section we will make a copy of the repository on your local machine
 2. $ git clone git@github.com:mark-mcnulty/base_phase.git
 3. $ cd base_phase # this is the repository
 4. you can now go to kicad and open the kicad project it should be located ~/Documents/base_phase/hardware/base_phase/base_phase.kicad_pro 
+
+How to push your edits 
+$ cd ~/Documents/base_phase/ # you don't have to type this everytime, just making sure that you are in the folder with the repository
+$ make commit_all 
