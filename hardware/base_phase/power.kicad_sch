@@ -2253,6 +2253,18 @@
 		(uuid "39b11a64-9a6e-4ab0-916e-b855f10d4b72")
 	)
 	(rectangle
+		(start 199.39 102.87)
+		(end 278.13 160.02)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3ea0cc57-8322-49a1-a263-081faa92ff27")
+	)
+	(rectangle
 		(start 171.45 24.384)
 		(end 260.35 87.884)
 		(stroke
@@ -2310,14 +2322,14 @@
 		)
 		(uuid "58bbf467-bce4-4fb5-b7b4-3c181eaf700a")
 	)
-	(text "3.8=0.8*(1+x)... x=3.75, voltage divider ratio\n0.8(1+(357/100)) = 3.656 V output\n"
+	(text "0.8(1+(69.8/20)) = 3.592 V output\n\nMCU: Imax = 300mA from datasheet\n\n△IL(max) = 500mA = 0.5A\nVout = 3.592V\nf=1.2MHz\nVin(max)=9V??\n\nL=(vout/(f * △IL(max)) * (1-(vout/vin(max)))\nL=(3.592/(1.2E6 * 0.5)) * (1-(3.592/9)) = 3.59 * 10^-6 \nL= ~3.6uH\n\n"
 		(exclude_from_sim no)
-		(at 35.814 163.576 0)
+		(at 15.748 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "84a99443-c939-40a5-9738-4f7aa5d12f49")
 	)
@@ -2343,15 +2355,27 @@
 		)
 		(uuid "912057bd-5b29-433e-b3b0-905cbdbc90cf")
 	)
-	(text "Assumption, current wont exceed 0.6A on the 3.3V"
+	(text "Assumptions:\n1) current wont exceed 0.6A on the 3.3V. RT6200GE can only supply max 0.6A"
 		(exclude_from_sim no)
-		(at 38.862 184.404 0)
+		(at 14.224 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
 		(uuid "ab07ac72-d9bd-416d-976d-49b853155897")
+	)
+	(text "LDO selection:\n12 bit ADC\n3.3V supply\n3.3V / (2^12) = 0.8mV\n\n16bit ADC\n3.3V / (2^16) = 0.05mV = 50uV\n\n24bit ADC\n3.3V / (2^24) = 0.196695327759 uV"
+		(exclude_from_sim no)
+		(at 201.676 104.902 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b5cab39a-34b2-452b-9367-3925277e2448")
 	)
 	(text "Low ESR"
 		(exclude_from_sim no)
@@ -3151,7 +3175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "357k"
+		(property "Value" "69.8k"
 			(at 91.44 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "20k"
 			(at 91.44 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)

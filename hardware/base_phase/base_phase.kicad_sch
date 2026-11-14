@@ -5,7 +5,7 @@
 	(uuid "4506346c-e1d4-4e4d-bf95-9738a1a64fd9")
 	(paper "A4")
 	(lib_symbols)
-	(text "Notes:\nguitar pedal design https://www.sound-au.com/articles/guitar-voltage.htm\nhttps://jones-audio-illusions-wiki.pages.dev/pedal-electronics/Guitar%20Input%20Stage%20Design/"
+	(text "Notes:\nguitar pedal design https://www.sound-au.com/articles/guitar-voltage.htm\nhttps://jones-audio-illusions-wiki.pages.dev/pedal-electronics/Guitar%20Input%20Stage%20Design/\n\n\nresister series: https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/"
 		(exclude_from_sim no)
 		(at 65.786 91.694 0)
 		(effects
