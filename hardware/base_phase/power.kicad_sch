@@ -2887,10 +2887,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ae57822-2f9e-4561-99b4-fb54939b892e")
 		(property "Reference" "U6"
-			(at 45.72 111.76 0)
+			(at 45.72 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2899,7 +2898,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "RT6200GE"
 			(at 45.72 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
