@@ -1556,6 +1556,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 30.734 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b61827e-a264-4a5e-9d4e-8e810519b0c3")
+	)
+	(text "Choosing ADC:\n	TL061 have a 37nV/sqrt(hz)\n	44kHz noise = 7.84uV of noise\n\n12bit\n3.3V / (2^12) = 0.8mV\n\n16bit ADC\n3.3V / (2^16) = 0.05mV = 50uV\n\n24bit ADC (overkill due to noise on Op amps)\n3.3V / (2^24) = 0.196695327759 uV"
+		(exclude_from_sim no)
+		(at 12.954 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d5420a6-1684-4d55-a129-67716ad6d703")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F7:STM32F722RETx")
 		(at 140.97 90.17 0)
