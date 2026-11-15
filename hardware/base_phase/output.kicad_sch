@@ -277,6 +277,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -427,209 +640,6 @@
 				)
 			)
 			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Variable_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable_US"
-				(at -2.54 -1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Variable resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Variable_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 1.524) (xy 2.54 2.54) (xy 1.524 2.286) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -925,28 +935,10 @@
 		)
 	)
 	(junction
-		(at 68.58 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53bdf8c7-aef6-4ea4-a133-8f7b5c67e7a2")
-	)
-	(junction
-		(at 77.47 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6117f330-72c9-463e-a9a5-f1a23c4e4f2c")
-	)
-	(junction
 		(at 82.55 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e5dac20-db13-4514-8d53-a15fc8c8c400")
-	)
-	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96166772-ecd0-4f6f-91b1-e5e2dcb4755f")
 	)
 	(junction
 		(at 105.41 86.36)
@@ -956,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 77.47 76.2)
+			(xy 66.04 76.2) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
@@ -966,23 +958,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 90.17) (xy 58.42 90.17)
+			(xy 49.53 91.44) (xy 58.42 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "191112d5-5f7d-4c59-8528-b67aec3cd529")
-	)
-	(wire
-		(pts
-			(xy 68.58 86.36) (xy 68.58 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197e2fe1-5162-41eb-a2cc-1c7668ad44ea")
 	)
 	(wire
 		(pts
@@ -1026,16 +1008,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 90.17) (xy 68.58 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1ca1dd-9055-4faa-a8be-636b54964828")
-	)
-	(wire
-		(pts
 			(xy 49.53 76.2) (xy 58.42 76.2)
 		)
 		(stroke
@@ -1046,53 +1018,43 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 77.47 90.17)
+			(xy 72.39 87.63) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "574e07ea-4fd1-436f-8456-7fcd31af9203")
+		(uuid "68195866-7db3-4365-89b9-f023fb03aa78")
 	)
 	(wire
 		(pts
-			(xy 77.47 83.82) (xy 86.36 83.82)
+			(xy 76.2 83.82) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a7fdcb6-8563-4350-a905-113963f99b20")
+		(uuid "7e4b910c-336a-4923-bd6a-c124a51f7220")
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 78.74)
+			(xy 72.39 76.2) (xy 72.39 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "824f49bc-7efc-4d85-bc15-bc5be5a4694a")
+		(uuid "8ebbe27c-eefd-4927-996e-83751d2b8d0d")
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 77.47 90.17)
+			(xy 66.04 91.44) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9baf7768-8c98-4163-bd9c-a6811892f548")
-	)
-	(wire
-		(pts
-			(xy 66.04 76.2) (xy 68.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c0d843-887a-4b81-b8b3-f1f713fe6cb1")
 	)
 	(wire
 		(pts
@@ -1155,7 +1117,7 @@
 		(uuid "a5995c38-b546-4109-b357-5f47a45b73ef")
 	)
 	(label "To Clean Blend"
-		(at 49.53 90.17 180)
+		(at 49.53 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1423,6 +1385,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 72.39 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a537075-2963-4c23-9bd8-cc3c61e457ba")
+		(property "Reference" "RV1"
+			(at 69.85 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 69.85 85.0899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8153feee-0caa-4ac5-b7c8-97076fecde63")
+		)
+		(pin "1"
+			(uuid "0e879194-d2b4-496d-81a7-f87992ad17c0")
+		)
+		(pin "2"
+			(uuid "35be25df-8b3e-42cd-b56f-fcf65f10665c")
+		)
+		(instances
+			(project "base_phase"
+				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9/64dea48a-a524-47e4-a08e-25c4298ba0fb"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 119.38 0)
 		(unit 1)
@@ -1581,89 +1662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable_US")
-		(at 68.58 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff667ae-d370-45bf-b936-26e4255569ee")
-		(property "Reference" "R27"
-			(at 72.39 81.2418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Variable_US"
-			(at 72.39 83.7818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.802 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Variable resistor, US symbol"
-			(at 68.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d02f628-8d9c-4a3a-b456-29182e1ea72c")
-		)
-		(pin "2"
-			(uuid "db92077b-bedd-49ec-85e4-87507c34d15a")
-		)
-		(instances
-			(project "base_phase"
-				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9/64dea48a-a524-47e4-a08e-25c4298ba0fb"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL062")
 		(at 93.98 86.36 0)
 		(unit 1)
@@ -1762,7 +1760,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 62.23 90.17 90)
+		(at 62.23 91.44 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1773,7 +1771,7 @@
 		(dnp no)
 		(uuid "d18296ff-8b20-43ad-a25b-561674e47c3f")
 		(property "Reference" "R25"
-			(at 62.23 96.52 90)
+			(at 62.23 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1783,7 +1781,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 62.23 93.98 90)
+			(at 62.23 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1793,7 +1791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.484 91.186 90)
+			(at 62.484 92.456 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1804,7 +1802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 90.17 0)
+			(at 62.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1813,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 62.23 90.17 0)
+			(at 62.23 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
