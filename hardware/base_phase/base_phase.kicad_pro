@@ -665,7 +665,7 @@
         "uuid": "4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR13-18,C5-7,D1-2,F1,JP1-3,L1,Q1,R1,R14-15,U1-2,U6",
+    "used_designators": "#PWR1-4,#PWR13-24,C5-8,D1-3,F1,JP1-3,L1,Q1,R1,R14-22,U1-8",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "507d498f-8883-4f6a-93de-0feff2447d04",
       "power"
+    ],
+    [
+      "db9e2b3e-480b-4b24-aa13-899c1b9a2b86",
+      "input"
     ],
     [
       "3b57cd10-546a-4ecc-9e73-818091add00f",
