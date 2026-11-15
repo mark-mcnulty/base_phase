@@ -2495,7 +2495,7 @@
 		)
 		(uuid "ffbb0c85-8a39-46d6-9458-d1aa5db43b26")
 	)
-	(label "Output Stage"
+	(label "To Output"
 		(at 266.7 48.26 0)
 		(effects
 			(font

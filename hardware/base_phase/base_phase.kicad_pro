@@ -665,7 +665,7 @@
         "uuid": "4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR13-28,C5-10,D1-3,F1,JP1-4,L1,Q1,R1,R14-22,TP1-2,U1-9",
+    "used_designators": "#PWR1-4,#PWR13-28,#PWR30-32,C5-10,D1-3,F1,JP1-4,L1,Q1,R1,R14-27,TP1-2,U1-9",
     "variants": []
   },
   "sheets": [
@@ -688,6 +688,10 @@
     [
       "af2a5a94-931c-412c-b89c-d4798185857e",
       "analog"
+    ],
+    [
+      "64dea48a-a524-47e4-a08e-25c4298ba0fb",
+      "output"
     ],
     [
       "75531b7f-01a5-4dde-a1b2-e246b8fcf762",

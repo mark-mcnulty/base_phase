@@ -109,7 +109,53 @@
 		)
 	)
 	(sheet
-		(at 189.23 38.1)
+		(at 186.055 36.83)
+		(size 12.7 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "64dea48a-a524-47e4-a08e-25c4298ba0fb")
+		(property "Sheetname" "output"
+			(at 186.055 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 186.055 50.7496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base_phase"
+				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 38.1)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -125,7 +171,7 @@
 		)
 		(uuid "75531b7f-01a5-4dde-a1b2-e246b8fcf762")
 		(property "Sheetname" "connectors"
-			(at 189.23 37.3884 0)
+			(at 217.17 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,7 +182,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 189.23 51.3846 0)
+			(at 217.17 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +195,7 @@
 		(instances
 			(project "base_phase"
 				(path "/4506346c-e1d4-4e4d-bf95-9738a1a64fd9"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
