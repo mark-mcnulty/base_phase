@@ -42,3 +42,20 @@ needed output of the LDO, Buck out at 3.692V - 3.3V = 0.392V.
 
 Following the datasheet I selected the input and output capacitance. Cin recommended 1uF. Cout recommended 0.47uF to 200uF. 
 I also selected Cs with low ESR since this is in parallel with the load to minimize losses on the output. 
+
+
+# Repository Management
+- Cloning: $ git clone git@github.com:mark-mcnulty/base_phase.git
+- Updating: $ make update
+- Pushing changes: $ make commit_all
+
+- $ cd ~/Documents/
+- $ mkdir temp
+- $ mv ./base_phase ./temp # moving broken one to a temp directory
+- $ git clone git@github.com:mark-mcnulty/base_phase.git
+- Update changes to repo in ~/Documents/base_phase from the one in ~/Documents/temp/base_phase 
+- make sure that all changes have been made to the one in ~/Documents/base_phase
+- $ cd ~/Documents/base_phase/
+- $ make commit_all
+- we are deleting the broken repo now
+- $ rm -r ~/Documents/temp/base_phase
