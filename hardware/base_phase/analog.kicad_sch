@@ -1259,6 +1259,16 @@
 		)
 		(uuid "42178206-d5cc-48d6-914e-25860989574b")
 	)
+	(text "test\n"
+		(exclude_from_sim no)
+		(at 116.586 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b62d834-902a-4e7d-8d4d-4f0abd8ed901")
+	)
 	(text "Phaser"
 		(exclude_from_sim no)
 		(at 38.354 16.002 0)
