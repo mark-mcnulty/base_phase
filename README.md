@@ -49,6 +49,7 @@ I also selected Cs with low ESR since this is in parallel with the load to minim
 - Updating: $ make update
 - Pushing changes: $ make commit_all
 
+## start here
 - $ cd ~/Documents/
 - $ mkdir temp
 - $ mv ./base_phase ./temp # moving broken one to a temp directory
