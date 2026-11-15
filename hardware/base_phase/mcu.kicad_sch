@@ -1556,6 +1556,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "test"
+		(exclude_from_sim no)
+		(at 80.772 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1084badd-c21e-4be2-859a-ccac709e9daf")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 30.734 26.162 0)
