@@ -37,7 +37,8 @@ should decrease the output ripple current from the above calculation to 0.16 of 
 
 ## LDO (TPS7A2033PDBVR)
 I found a LDO with a low output voltage noise of 7uVrms, high PSRR to reject noise from the buck converter (40dB at 1MHz buck
-converter switching frequency), and low dropout voltage 145mV at 3.3V. 
+converter switching frequency), and low dropout voltage 145mV at 3.3V, since the buck converters output is very close to the 
+needed output of the LDO, Buck out at 3.692V - 3.3V = 0.392V. 
 
 Following the datasheet I selected the input and output capacitance. Cin recommended 1uF. Cout recommended 0.47uF to 200uF. 
 I also selected Cs with low ESR since this is in parallel with the load to minimize losses on the output. 
