@@ -2322,7 +2322,7 @@
 		)
 		(uuid "58bbf467-bce4-4fb5-b7b4-3c181eaf700a")
 	)
-	(text "0.8(1+(69.8/20)) = 3.592 V output\n\nMCU: Imax = 300mA from datasheet\n\n△IL(max) = 500mA = 0.5A\nVout = 3.592V\nf=1.2MHz\nVin(max)=9V??\n\nL=(vout/(f * △IL(max)) * (1-(vout/vin(max)))\nL=(3.592/(1.2E6 * 0.5)) * (1-(3.592/9)) = 3.59 * 10^-6 \nL= ~3.6uH\n\n"
+	(text "Resistor network for FB:\n0.8(1+(69.8/20)) = 3.592 V output\n\nMCU: Imax = 300mA from datasheet\n\n△IL(max) = 500mA = 0.5A\nVout = 3.592V\nf=1.2MHz\nVin(max)=9V??\n\nL=(vout/(f * △IL(max)) * (1-(vout/vin(max)))\nL=(3.592/(1.2E6 * 0.5)) * (1-(3.592/9)) = 3.59 * 10^-6 \nL= ~3.6uH\n\n"
 		(exclude_from_sim no)
 		(at 15.748 156.718 0)
 		(effects
@@ -2387,9 +2387,9 @@
 		)
 		(uuid "c60a178a-4763-4c7f-ac1d-f726ec521112")
 	)
-	(text "Buck converter converting 9V to 3.3V w/ LDO for mcu\nMaybe design the buck converter to 3.6V or 3.8V to give the LDO some headroom\n"
+	(text "Buck converter converting 9V to 3.6V w/ LDO for mcu 3.3V\n"
 		(exclude_from_sim no)
-		(at 26.67 98.552 0)
+		(at 14.224 98.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3015,7 +3015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "SS34"
 			(at 64.77 129.2224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,6 +3050,17 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 62.23 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C8678"
+			(at 62.23 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "22uH"
 			(at 82.55 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,6 +3460,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 82.55 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mfg#" "CYN5040-22UH"
+			(at 82.55 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc#" "C2879700"
+			(at 82.55 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
