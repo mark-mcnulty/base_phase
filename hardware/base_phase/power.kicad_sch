@@ -2563,18 +2563,6 @@
 		(uuid "39b11a64-9a6e-4ab0-916e-b855f10d4b72")
 	)
 	(rectangle
-		(start 171.45 24.384)
-		(end 260.35 87.884)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "705fec67-c3d6-4e94-b8ee-19fbd2c9f910")
-	)
-	(rectangle
 		(start 12.7 101.346)
 		(end 228.6 165.1)
 		(stroke
@@ -2652,17 +2640,6 @@
 			(justify left)
 		)
 		(uuid "89a190e3-f45e-4ad3-b01c-866e38225324")
-	)
-	(text "Dual Rail Converter"
-		(exclude_from_sim no)
-		(at 171.45 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "912057bd-5b29-433e-b3b0-905cbdbc90cf")
 	)
 	(text "Assumptions:\n1) current wont exceed 0.6A on the 3.3V. RT6200GE can only supply max 0.6A"
 		(exclude_from_sim no)
